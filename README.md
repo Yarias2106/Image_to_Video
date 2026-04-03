@@ -84,21 +84,7 @@ The application window will open. The general workflow is:
 6. Choose the output resolution from the **Output quality** menu.
 7. Click **Export MP4**, choose a save location, and wait for the progress bar to complete.
 
----
 
-## Project Structure
-
-```
-image-to-video/
-├── main.py               Entry point. Run this to start the app.
-├── requirements.txt      Python dependencies.
-├── README.md
-└── src/
-    ├── __init__.py
-    ├── app.py            Main application window (CustomTkinter).
-    ├── audio_handler.py  Audio loading, playback, and trimming (pydub + pygame).
-    └── video_exporter.py Video rendering (MoviePy).
-```
 
 ---
 
